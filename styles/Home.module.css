@@ -2,6 +2,15 @@
   padding: 0 2rem;
 }
 
+
+.single {
+  color: #f3652b;
+}
+
+.single:hover {
+  text-decoration: underline;
+}
+
 .main {
   min-height: 100vh;
   padding: 4rem 0;
@@ -29,7 +38,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: #f3652b;
   text-decoration: none;
 }
 
@@ -57,7 +66,7 @@
 }
 
 .code {
-  background: #fafafa;
+  background: #888888;
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
@@ -88,8 +97,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: #f3652b;
+  border-color: #f3652b;
 }
 
 .card h2 {
